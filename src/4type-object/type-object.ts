@@ -1,7 +1,7 @@
 //Criar objetos sempre abertos
 
 const objExample: {
-  keyA: string;
+  readonly keyA: string; // Nao permite alteracao na chave
   keyB: string;
   keyC?: string;
   [key: string]: unknown;
@@ -12,6 +12,6 @@ const objExample: {
 
 console.log(objExample);
 
-objExample.keyA = 'Another value';
+objExample.keyB = 'Another value';
 
 console.log(objExample);
