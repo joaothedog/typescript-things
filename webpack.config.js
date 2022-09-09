@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './src/exercises/index.ts',
+  entry: './src/1basic-types/18exercise-this/index.ts',
   module: {
     rules: [
       {
