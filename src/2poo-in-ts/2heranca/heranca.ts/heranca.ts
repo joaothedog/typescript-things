@@ -38,5 +38,6 @@ export class Cliente extends Pessoa {
 
 const student = new Aluno('João', 'Vitor', 21, '000.222.333-00');
 const client = new Cliente('Marcela', 'Vieira', 24, '111.555.333-00');
+
 console.log(student.getFullName());
 console.log(client.getFullName());
