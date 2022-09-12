@@ -15,6 +15,10 @@ class VideoPlayer {
         this.videoPlayer = videoPlayerElements.videoPlayer;
         this.playBtn = videoPlayerElements.playBtn;
         this.stopBtn = videoPlayerElements.stopBtn;
+        this.fscreenBtn = videoPlayerElements.fscreenBtn;
+    }
+    fullscreenAction() {
+        //
     }
     playToggle() {
         if (this.videoPlayer.paused) {
@@ -43,6 +47,7 @@ const videoPlayer = new VideoPlayer({
     videoPlayer: document.querySelector('.video'),
     playBtn: document.querySelector('.play'),
     stopBtn: document.querySelector('.stop'),
+    fscreenBtn: document.querySelector('.fullscreen'),
 });
 videoPlayer.initEvents();
 
