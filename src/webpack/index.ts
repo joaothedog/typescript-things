@@ -1,3 +1,2 @@
-import mod from './mod';
-
-mod();
+import '../exercises/video-player/videoPlayer';
+// import './validatingForm';
